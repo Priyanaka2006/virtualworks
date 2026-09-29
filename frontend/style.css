@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #222;
+}
+
+.container {
+    width: min(900px, 92%);
+    margin: 50px auto;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #666;
+    margin-top: 0;
+}
+
+textarea {
+    width: 100%;
+    min-height: 150px;
+    padding: 15px;
+    margin: 20px 0 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: vertical;
+    font-size: 16px;
+}
+
+button {
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#message {
+    min-height: 22px;
+}
+
+.note {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 12px;
+    background: #fafafa;
+}
+
+.note-content {
+    white-space: pre-wrap;
+    margin-bottom: 10px;
+}
+
+.note-time {
+    color: #777;
+    font-size: 13px;
+}
+
+.delete-button {
+    margin-top: 10px;
+    background: #dc2626;
+    font-size: 14px;
+    padding: 8px 12px;
+}
+
+.empty {
+    color: #777;
+}

@@ -1,2 +1,7 @@
-# virtualworks
-A single-page notes app using HTML, CSS, JavaScript, Python backend, and SQLite database.
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+backend/notes.db
+.vscode/
